@@ -15,7 +15,7 @@ First step is to load the data and clean it up, then we filter the data by getti
 ![Pic1](https://user-images.githubusercontent.com/82550431/136467788-cd9c2fbc-2843-483e-afe5-2b673f83974d.PNG)
 
 
-**Deliverable 2 & Deliverable 3****
+**Deliverable 2 & Deliverable 3**
 
 Using the pd.get_dummies() command will create integer values and replace the two string columns, because the ML algorithms we'll be using can't process strings. Then reduce the different features from 4 decreasing to 3 principal components using PCA (Principal Component Analysis). Now we can run the K-Means algorithm that will help us identify and pick how many clusters our day will fit into.
 
@@ -35,6 +35,3 @@ Using the data frame above, we can use plotly library to plot a 3d scatter plot.
 To help visualize our different types of cryptocurrencies, the data is scaled using the MinMaxScaler() method, then plot it on the regular scatter plot using hvplot. *shown below*
 
 ![pic5](https://user-images.githubusercontent.com/82550431/136468481-51f61be2-0281-4e06-842d-c78e6001c238.PNG)
-
-# Summary 
-Using unsupervised machine learning, we can cluster our data in
