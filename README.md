@@ -17,7 +17,6 @@ First step is to load the data and clean it up, then we filter the data by getti
 
 **Deliverable 2**
 
-
 ![pic2](https://user-images.githubusercontent.com/82550431/136468432-2bf14917-7f23-4ea5-960a-831150f0e679.PNG)
 
 
